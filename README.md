@@ -14,25 +14,22 @@ Damit wird der Meta-Header der `qmd`-Datei stark ausgedünnt und die Arbeit an d
 
 In folgenden Dateien sind unbedingt Anpassungen vorzunehmen:
 
-- autor_innen.yml
-- oer_metadata.yml
+- `_autor_innen.yml`
+- `_oer_metadata.yml`
 
-Design und Layout des Templates ist sehr nüchtern. Anpassungen können über die 
+Änderungen an Design und Layout des Templates können über die 
 
-- layout.yml
+- `_layout.yml`
+- `_brand.yml`
 
 vorgenommen werden.
 
-::: callout-tip
-## Hinweis
-
-In den Kommentaren in den yml-Dateien sind viele Hinweise für Anpassungen hinterlegt.
-:::
+> [!TIP]
+> In den kommentierten yml-Dateien sind viele Hinweise für Anpassungen hinterlegt.
 
 ## Open Educational Resources (OER)
 
 Das Template ist ein Angebot der Task Area 6 von [NFDI4Objects](https://nfdi4objects.net), einem Konsortium der Nationalen Forschungsdateninfrastruktur ([NFDI](https://nfdi.de)). 
-
 
 ## Förderung
 

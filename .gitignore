@@ -1,0 +1,5 @@
+/.luarc.json
+/.quarto/
+*.html
+_quarto_internal_scss_error.scss
+/template_files

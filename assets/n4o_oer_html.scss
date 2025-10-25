@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+$spacer: 1rem !default;
+
+/*-- scss:rules --*/
+
+.header-section-number {
+  color: var(--quarto-color-farbe-dunkel);
+}
+
+// Eigene Kolophon-Klasse
+.kolophon {
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.kolophon p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.kolophon > :is(h1, h2, h3) {
+  font-size: 1rem !important;
+}
+
+// Bilder
+
+.figure, figure, .quarto-figure {
+  margin: $spacer * 1.25 0;
+}
+
+figure figcaption, .figure-caption {
+  font-size: 0.9rem;
+  color: $brand-farbe-dunkel !important;
+}
+
+// Margin
+
+.quarto-margin-sidebar {
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar nav[role="doc-toc"] > h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.sidebar nav[role=doc-toc]>ul a {
+  border-left: 2px solid $brand-farbe-marker !important;
+}
+
+// Tabset
+
+.panel-tabset {
+  font-size: 1.2rem !important;
+  font-weight: 400;
+}
