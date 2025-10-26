@@ -35,7 +35,6 @@ citation:
   url: *site
   license: "https://creativecommons.org/licenses/by/4.0/"
 
-
 # Rechtliche Metadaten
 copyright: "Freitext-Angaben zu Inhaber:innen des Urheberrechts an den Inhalten"
 # Optionen für Lizensierungsangaben: https://quarto.org/docs/authoring/front-matter.html#license
