@@ -35,7 +35,7 @@ format:
       - default
       - assets/n4o_oer_html.scss
     brand: _brand.yml
-        embed-resources: false
+    embed-resources: false
     page-layout: article
     back-to-top-navigation: true
     anchor-sections: true
