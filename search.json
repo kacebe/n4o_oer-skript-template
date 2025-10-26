@@ -2,48 +2,55 @@
   {
     "objectID": "template.html",
     "href": "template.html",
+    "title": "Template für ein FAIRedeltes OER-Skript",
+    "section": "",
+    "text": "HinweisWichtige Links\n\n\n\nRepository für das Template auf GitHub\nURL für diese Webpage"
+  },
+  {
+    "objectID": "oer-skript-vorlage.html",
+    "href": "oer-skript-vorlage.html",
     "title": "Titel des OER-Skripts",
     "section": "",
     "text": "HinweisÜber diese Seite\n\n\n\nVorlage für einen OER-Baustein, Materialart: Skript\nRepository\nWebsite"
   },
   {
-    "objectID": "template.html#einleitung",
-    "href": "template.html#einleitung",
+    "objectID": "oer-skript-vorlage.html#einleitung",
+    "href": "oer-skript-vorlage.html#einleitung",
     "title": "Titel des OER-Skripts",
     "section": "1 Einleitung",
     "text": "1 Einleitung\n\n\nLernziele\n\nIn diesem Skript lernen sie (Petersen u. a. 2025):\n\nKompetenz #\n\n\n\nVorwissen\nFür das Verständnis dieses Skripts werden vorausgesetzt:\n\nVoraussetzung #\n\n\n\n\nBezug zum Forschungsdatenlebenszyklus"
   },
   {
-    "objectID": "template.html#inhaltliche-abschnitte",
-    "href": "template.html#inhaltliche-abschnitte",
+    "objectID": "oer-skript-vorlage.html#inhaltliche-abschnitte",
+    "href": "oer-skript-vorlage.html#inhaltliche-abschnitte",
     "title": "Titel des OER-Skripts",
     "section": "2 Inhaltliche Abschnitte",
     "text": "2 Inhaltliche Abschnitte\n\n\n2.1 Fundierte Kenntnisse\n\n\n\n\n\n\nHinweisNiveaustufe: Fundiert\n\n\n\nDie weiteren Abschnitte sind Inhalte der Niveaustufe “Fundiert”:\n\n\n\n\n\n2.1.1 Abschnitt-Überschrift\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n2.2 Fortgeschrittene Kenntnisse\n\n\n\n\n\n\nTippNiveaustufe: Fortgeschritten\n\n\n\nDie weiteren Abschnitte sind Inhalte der Niveaustufe “Fortgeschritten”:\n\n\n\n\n\n2.2.1 Abschnitt-Überschrift\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n2.3 Fachkundige Kenntnisse\n\n\n\n\n\n\nVorsichtNiveaustufe: Fachkundig\n\n\n\nDie weiteren Abschnitte enthalten Inhalte für die Niveaustufe Fachkundig:\n\n\n\n\n\n2.3.1 Abschnitt-Überschrift\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
   },
   {
-    "objectID": "template.html#ausblick",
-    "href": "template.html#ausblick",
+    "objectID": "oer-skript-vorlage.html#ausblick",
+    "href": "oer-skript-vorlage.html#ausblick",
     "title": "Titel des OER-Skripts",
     "section": "3 Ausblick",
     "text": "3 Ausblick\nGeben Sie den Lernenden Hinweise in die Hand, welche Inhalte anschließend bearbeitet werden könnnen und in welchen Arbeitskontexten die Inhalte des Skripts relevant sind."
   },
   {
-    "objectID": "template.html#weiterführende-quellen-und-informationen",
-    "href": "template.html#weiterführende-quellen-und-informationen",
+    "objectID": "oer-skript-vorlage.html#weiterführende-quellen-und-informationen",
+    "href": "oer-skript-vorlage.html#weiterführende-quellen-und-informationen",
     "title": "Titel des OER-Skripts",
     "section": "4 Weiterführende Quellen und Informationen",
     "text": "4 Weiterführende Quellen und Informationen\n\nDer Ort für weiterführende Quellen und Informationen. Wenn Sie Fußnoten oder Literaturverweise im Text eingefügt haben, werden die bibliographischen Angaben automatisch in weiteren Abschnitten generiert und in das Dokument eingefügt."
   },
   {
-    "objectID": "template.html#nachnutzen",
-    "href": "template.html#nachnutzen",
+    "objectID": "oer-skript-vorlage.html#nachnutzen",
+    "href": "oer-skript-vorlage.html#nachnutzen",
     "title": "Titel des OER-Skripts",
     "section": "5 Nachnutzen",
     "text": "5 Nachnutzen\n\nAlle sind herzlich eingeladen, diesen Baustein und die zugehörige Copyleft-Lizenz zu nutzen, um ihr Wissen und Expertise in die Verbesserung und Aktualisierung einzubringen. Alle können die Inhalte erweitern oder überarbeiten, zum Beispiel um Anwendungsszenarien und Nutzungskontexte zu erweitern.\nUnser Wunsch ist ein lebendiges, stetig wachsendes Dokument, das sich durch die Beiträge vieler verändert - im Einklang mit eines sich wandelnden Umfelds. Wir freuen uns im Falle einer Überarbeitung über eine kurze Notiz – das ist aber selbstverständlich keine Pflicht.\n\n🔗 Dieser Baustein als Website\n🔗 Quarto-Quellcode dieses Bausteins"
   },
   {
-    "objectID": "template.html#disclaimer-einsatz-von-llm",
-    "href": "template.html#disclaimer-einsatz-von-llm",
+    "objectID": "oer-skript-vorlage.html#disclaimer-einsatz-von-llm",
+    "href": "oer-skript-vorlage.html#disclaimer-einsatz-von-llm",
     "title": "Titel des OER-Skripts",
     "section": "6 Disclaimer: Einsatz von LLM",
     "text": "6 Disclaimer: Einsatz von LLM"
