@@ -3,3 +3,4 @@
 *.html
 _quarto_internal_scss_error.scss
 /template_files
+**/*.quarto_ipynb
