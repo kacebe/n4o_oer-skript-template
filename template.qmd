@@ -20,8 +20,8 @@ toc-location: right
 number-sections: true # Auf false setzen, wenn keine Abschnittsnummerierung gewünscht
 lightbox: true
 # Für CI-build in github
-# execute:
-#  freeze: auto
+execute:
+  freeze: auto
 ---
 
 :::{.callout-note appearance="minimal" icon="false" title="Über diese Seite"}
