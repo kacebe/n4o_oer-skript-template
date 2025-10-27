@@ -43,8 +43,8 @@ format:
     appendix-style: default
     appendix-cite-as: true
 # Pfad und Alternativtext für Vorschau-Bild
-    image: img/placeholder.png
-    image-alt: "Platzhalter-Graphik"
+    image: img/n4o_fair-oer-img.png
+    image-alt: "Symbolgraphik FAIRedelte OER"
 # Für die Nutzung von shortcodes für Emojis in Quarto-Markdown vgl. https://quarto.org/docs/visual-editor/content.html#emojis und https://gist.github.com/rxaviers/7360908
 from: markdown+emoji
 # Anpassungen der automatisch erzeugten Bezeichnungen in der Dokumentstruktur. vgl. https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language-de.yml

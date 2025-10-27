@@ -1,0 +1,33 @@
+'@context': https://schema.org/
+creativeWorkStatus: Incomplete
+type: LearningResource
+name: Titel des OER-Skripts
+description: Kurzbeschreibung der Inhalte des Skripts
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://kacebe.github.io/n4o_oer-skript-template/
+creator:
+  - givenName: Jane
+    familyName: Doe
+    id: https://orcid.org/0000-0000-0000-0001
+    type: Person
+    affiliation:
+      name: Janes Institution
+      type: Organization
+  - givenName: John
+    familyName: Doe
+    id: https://orcid.org/0000-0000-0000-0002
+    type: Person
+    affiliation:
+      name: Johns Institution
+      type: Organization
+keywords:
+  - OER
+  - FAIR
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+learningResourceType:
+  - https://w3id.org/kim/hcrt/script
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
