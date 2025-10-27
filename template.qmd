@@ -14,7 +14,7 @@ bibliography: bibliographie.bib
 toc: true
 toc-expand: false
 toc-title: |
-  ![Logo](/img/n4o_fair-oer-img.svg)
+  ![Logo](/img/n4o_fair-oer-img.png)
   Abschnitte
 toc-location: right
 number-sections: true # Auf false setzen, wenn keine Abschnittsnummerierung gewünscht
