@@ -4,8 +4,12 @@ $spacer: 1rem !default;
 
 /*-- scss:rules --*/
 
+p, li, a {
+  letter-spacing: 0.01em; /* leicht erhöhter Buchstabenabstand */
+}
+
 .header-section-number {
-  color: var(--quarto-color-farbe-dunkel);
+  color: var(--quarto-color-farbe-dunkel) !important;
 }
 
 // Eigene Kolophon-Klasse
@@ -23,18 +27,13 @@ $spacer: 1rem !default;
   font-size: 1rem !important;
 }
 
-// Bilder
-
-.figure, figure, .quarto-figure {
-  margin: $spacer * 1.25 0;
-}
+// Bildunterschriften
 
 figure figcaption, .figure-caption {
-  font-size: 0.9rem;
   color: $brand-farbe-dunkel !important;
 }
 
-// Margin
+// TOC/Margin
 
 .quarto-margin-sidebar {
   line-height: 1.2rem;
@@ -48,6 +47,11 @@ figure figcaption, .figure-caption {
 
 .sidebar nav[role=doc-toc]>ul a {
   border-left: 2px solid $brand-farbe-marker !important;
+}
+
+.column-margin {
+  font-size: 0.9rem !important;
+  color: $brand-farbe-dunkel !important;
 }
 
 // Tabset

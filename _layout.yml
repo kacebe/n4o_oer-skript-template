@@ -32,9 +32,10 @@ format:
     link-external-newwindow: true # Links in einem neuen Tab/Fenster anzeigen
     title-block-style: default
     title-block-categories: true
+    smooth-scroll: false # Barrierefreiheit: Vermeidet animiertes scrollen.
 # Styling von Code-Boxen
     code-overflow: scroll
-    highlight-style: gruvbox
+    highlight-style: github
     code-line-numbers: true
     respect-user-color-scheme: true
     cap-location: bottom
