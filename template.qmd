@@ -14,7 +14,7 @@ bibliography: bibliographie.bib
 toc: true
 toc-expand: false
 toc-title: |
-  ![Logo](/assets/logos/logo-medium.svg)
+  ![Logo](/img/n4o_fair-oer-img.svg)
   Abschnitte
 toc-location: right
 number-sections: true # Auf false setzen, wenn keine Abschnittsnummerierung gewünscht
@@ -30,6 +30,8 @@ Vorlage für einen OER-Baustein, Materialart: Skript
 [Repository]({{< meta repo-url >}})
 
 [Website]({{< meta site-url >}})
+
+Die Kommentare in den Dateien des Templates geben ausführliche Hinweise zum Anpassen der Vorlage.
 :::
 
 ## Einleitung
