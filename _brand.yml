@@ -1,7 +1,3 @@
-logo:
-  small:  assets/logos/logo-small.svg
-  medium: assets/logos/logo-medium.png
-  large:  assets/logos/logo-large.svg
 color:
   palette:
     farbe-hell: "#EEEAE0" # RGB: 238 234 224
@@ -12,13 +8,16 @@ color:
     farbton-03: "#CD8255" # RGB: 205 130 85
     farbton-04: "#BCA089" # RGB: 188 160 137
     farbton-05: "#CFC5BA" # RGB: 207 197 186
+    hintergrund: "#ffffff"
   foreground: farbe-dunkel
-  background: white
+  background: hintergrund
+  primary: farbe-dunkel
 
 typography:
   fonts:
     - source: file
       family: "PT Sans"
+# Lokal eingebundene Schriftart über /assets/fonts/
       files:
         - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-regular.woff2
           weight: 400
@@ -32,12 +31,13 @@ typography:
         - path: assets/fonts/pt_sans/pt-sans-v18-latin_latin-ext-700italic.woff2
           weight: 700
           style: italic
+# Schriftart DSGVO-konform über https://fonts.bunny.net/ geladen
     - source: bunny
       family: Noto Sans Mono
-
+# Globale typographische Vorgaben
   base: 
     family: PT Sans
-    size: 1.2rem
+    size: 1.1rem
     weight: normal
     line-height: 1.4
   headings:
@@ -48,7 +48,7 @@ typography:
     color: farbe-dunkel
   monospace: 
     family: Noto Sans Mono
-    size: 0.9rem
+    size: 0.85rem
     weight: normal
     color: farbe-dunkel
     background-color: farbe-hell
@@ -61,6 +61,8 @@ typography:
 defaults:
   bootstrap:
     defaults:
+# Abstände
+      spacer: 1rem
 # Überschriften
       h1-font-size: 2.0rem
       h2-font-size: 1.8rem
@@ -99,17 +101,17 @@ defaults:
       nav-link-padding-y: .5rem
       nav-link-padding-x: 1rem
       nav-link-font-size: 1.2rem
-      nav-link-font-weight: normal
-      nav-link-color: $foreground
+      nav-link-font-weight: 400
+      nav-link-color: $brand-farbe-dunkel
       nav-tabs-border-color: $brand-farbe-hell
       nav-tabs-border-width: 3px
       nav-tabs-border-radius: 5px
       nav-tabs-link-hover-border-color: $brand-farbe-hell
-      nav-tabs-link-active-color: $foreground
-      nav-tabs-link-active-bg: $background
+      nav-tabs-link-active-color: $brand-farbe-dunkel
+      nav-tabs-link-active-bg: $brand-hintergrund
       nav-tabs-link-active-border-color: $brand-farbe-hell
       nav-pills-border-radius: 5px
-      nav-pills-link-active-color: $foreground
+      nav-pills-link-active-color: $brand-farbe-dunkel
       nav-pills-link-active-bg: $brand-farbe-hell
       nav-underline-gap: 1rem
       nav-underline-border-width: .125rem

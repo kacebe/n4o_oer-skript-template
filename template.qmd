@@ -1,5 +1,5 @@
 ---
-title: "Titel des OER-Skripts"
+title: "OER-Skript"
 subtitle: "Untertitel des OER-Skripts"
 lang: de
 date: 1900-01-01
@@ -14,27 +14,85 @@ bibliography: bibliographie.bib
 toc: true
 toc-expand: false
 toc-title: |
-  ![Logo](/img/n4o_fair-oer-img.png)
-  Abschnitte
+  ![](/img/titelgraphik.png)
 toc-location: right
-number-sections: true # Auf false setzen, wenn keine Abschnittsnummerierung gewünscht
+number-sections: true # Auf false setzen, wenn keine automatische Abschnittsnummerierung gewünscht
 lightbox: true
+crossref: 
+  lof-title: "Liste der Abbildungen"
 # Für CI-build in github
 execute:
   freeze: auto
 ---
 
-:::{.callout-note appearance="minimal" icon="false" title="Über diese Seite"}
-Vorlage für einen OER-Baustein, Materialart: Skript
+<!-- Löschen Sie den folgenden Abschnitt für Ihr Skript -->
 
-[Repository]({{< meta repo-url >}})
+:::{.callout-note appearance="minimal" icon="false" title="Willkommen in Ihrem Quarto-Skript-Template"}
 
-[Website]({{< meta site-url >}})
+Herzlichen Glückwunsch 🎉 – Sie haben den ersten Schritt erfolgreich abgeschlossen!
 
-Die Kommentare in den Dateien des Templates geben ausführliche Hinweise zum Anpassen der Vorlage.
-:::
+Ihr `quarto preview` lief erfolgreich, und Sie verfügen nun über ein vollständig funktionsfähiges Projekt mit einer **einzelnen** `.qmd`-Datei als Ausgangspunkt. Das Template ist bewusst einfach gehalten, damit Sie ohne komplexe Projektstrukturen mit der inhaltlichen Arbeit beginnen können.
+
+**Was ist noch zu tun?**
+
+Ergänzen Sie zunächst einige **administrative Angaben in den Metadaten**, bevor Sie mit dem Schreiben starten. Dazu gehören:
+
+* die **Autorenschaft**,
+* die **Lizenz**,
+* eine kurze **Inhaltsbeschreibung**,
+* Angaben zum **Nutzungskontext** oder zu Lernzielen,
+* sowie weitere optionale Metadaten.
+
+Diese Angaben sorgen für Transparenz und erleichtern die spätere Veröffentlichung Ihrer Materialien nach den **FAIR-Prinzipien**.
+
+Auch eine Anpassung des Layouts ist möglich, bleibt aber optional. Das Template ist bewusst schlicht gestaltet, um eigene Designvorgaben leicht umzusetzen.
+
+**Wie Sie weiterarbeiten können**
+
+1. **Platzhaltertexte ersetzen**
+   Füllen Sie die `.qmd`-Datei Schritt für Schritt mit Ihren eigenen Inhalten.
+
+2. **Vorschau nutzen**
+   Mit `quarto preview` behalten Sie jederzeit den Überblick über Struktur und Gestaltung.
+
+**Das Baukastenprinzip der Templates**
+
+Um Materialien flexibel und wiederverwendbar zu gestalten, folgen die bereitgestellten Templates dem Prinzip von *Learning Objects*: **kleine, in sich geschlossene Materialeinheiten**, die sich in verschiedenen Lehr- und Lernszenarien kombinieren lassen.
+
+Die Struktur ist wie folgt aufgebaut:
+
+1. Grundbausteine: Skripte, Übungen, Präsentationen
+   * Das **Skript-Template** (dieses) dient dazu, ein Themengebiet umfassend zu erschließen – ähnlich einem Kapitel in einem Handbuch.
+   * Ergänzend können Sie **Präsentationen** und **Übungen** erstellen, die jeweils als eigenständige, abgeschlossene Materialien funktionieren.
+   * Diese drei Vorlagen bilden die **Basisbausteine**.
+
+2. Kursbausteine
+   * Aus einem Skript und den zugehörigen Übungen oder Präsentationen können **Kursbausteine** abgeleitet werden.
+   * Ein Kursbaustein ist also eine fachlich stimmige, abgeschlossene Einheit, die in unterschiedlichen Kursen wiederverwendet werden kann.
+
+3. Kurse
+   * Mehrere Kursbausteine lassen sich zu vollständigen **Kursen** kombinieren.
+   * Dafür steht ein separates **Kurs-Template** zur Verfügung.
+
+Dieses System unterstützt Sie dabei, Inhalte modular zu entwickeln und gleichzeitig flexibel in verschiedenen Formaten oder Veranstaltungen einzusetzen.
+
+**Hinweise zur weiteren Nutzung**
+
+* Das Potenzial der Templates liegt in den **umfangreichen, leicht anpassbaren Metadaten**, die eine FAIR-konforme Bereitstellung erleichtern.
+* Eine [begleitende Website]({{< meta template-doku-url >}})) enthält detaillierte Hinweise, Beispiele und Tipps. Wenn Sie das Template nutzen wollen, sollten Sie die Dokumentation als Lesezeichen im Browser speichern.
+  **Sie können diesen Hinweisabschnitt also später problemlos aus Ihrem Dokument entfernen.**
+
+**Sie sind startklar**
+
+Die technische Einrichtung ist abgeschlossen und die Metadaten schaffen eine solide Grundlage.
+Nun können Sie Schritt für Schritt das Thema erschließen, das Ihr Skript behandeln soll.
+
+::: 
+<!-- Ab hier beginnt Ihr Skript -->
 
 ## Einleitung
+
+Für Hinweise zu dem Gliederungsvorschlag vgl. die Kommentare in der .qmd-Datei.
 
 <!-- Holen Sie die Lernenden in diesem Absatz ab. Stellen Sie in wenigen Sätzen, mit Beispielen und Fragen das Thema des Bausteins vor. -->
 
@@ -44,13 +102,13 @@ Die Kommentare in den Dateien des Templates geben ausführliche Hinweise zum Anp
 
 In diesem Skript lernen sie [@petersen2023]:
 
--   Kompetenz \#
+- Kompetenz `inline-code`
 
 ### Vorwissen {.kolophon .unnumbered .unlisted}
 
 Für das Verständnis dieses Skripts werden vorausgesetzt:
 
--   Voraussetzung \#
+- Voraussetzung
 
 <!-- Versuchen sie so detailliert wie möglich die Voraussetzungen für das Verständnis des Bausteins aufzuzählen. Geben sie Hinweise, wo die Lernenden entsprechende/s Kompetenzen/Wissen erwerben können. Damit sind nicht nur Kenntnisse im Forschunsdatenmanagement gemeint sondern auch Grund-Kompetenzen aus der Data Literacy und methodisch-praktische Kompetenzen gemeint. -->
 
@@ -76,70 +134,419 @@ Viele Hinweise dazu finden sie im [Quarto-Guide](https://quarto.org/docs/guide/)
 
 -->
 
-### Fundierte Kenntnisse {#sec-fundiert}
+### Abschnitt-Überschrift
 
-::: {.callout-note appearance="minimal" icon="false" title="Niveaustufe: Fundiert"}
-Die weiteren Abschnitte sind Inhalte der Niveaustufe **"Fundiert"**:
-
-<!-- Kurzangaben der Inhalte -->
-:::
-
-<!-- Abschnitte für fundierte Kenntnisse -->
-
-#### Abschnitt-Überschrift
-
-{{< lipsum 2 >}}
-
-### Fortgeschrittene Kenntnisse {#sec-fortgeschritten}
-
-::: {.callout-tip appearance="minimal" icon="false" title="Niveaustufe: Fortgeschritten"}
-Die weiteren Abschnitte sind Inhalte der Niveaustufe **"Fortgeschritten"**:
-
-<!-- Kurzangaben der Inhalte -->
-:::
-
-<!-- Abschnitte für fortgeschrittene Kenntnisse -->
-
-#### Abschnitt-Überschrift
-
-{{< lipsum 2 >}}
-
-### Fachkundige Kenntnisse {#sec-fachkundig}
-
-::: {.callout-caution appearance="minimal" icon="false" title="Niveaustufe: Fachkundig"}
-
-Die weiteren Abschnitte enthalten Inhalte für die Niveaustufe **Fachkundig**:
-
-<!-- Kurzangaben der Inhalte -->
-:::
-
-<!-- Abschnitte für fachkundige Kenntnisse -->
-
-#### Abschnitt-Überschrift
-
-{{< lipsum 2 >}}
+{{< lipsum 2 >}} <!-- Erzeugt zwei Absätze mit lorem ipsum Text -->
 
 ## Ausblick
 
-Geben Sie den Lernenden Hinweise in die Hand, welche Inhalte anschließend bearbeitet werden könnnen und in welchen Arbeitskontexten die Inhalte des Skripts relevant sind.
+{{< lipsum 1 >}}
 
-## Weiterführende Quellen und Informationen {.appendix}
+<!-- Geben Sie den Lernenden Hinweise in die Hand, welche Inhalte anschließend bearbeitet werden könnnen und in welchen Arbeitskontexten die Inhalte des Skripts relevant sind. -->
 
-Der Ort für weiterführende Quellen und Informationen. Wenn Sie Fußnoten oder Literaturverweise im Text eingefügt haben, werden die bibliographischen Angaben automatisch in weiteren Abschnitten generiert und in das Dokument eingefügt.
+## Formatierungen und Elemente für Design-Tests
 
-## Nachnutzen {.appendix}
+**fett**
+
+*kursiv*
+
+***fett-kursiv***
+
+Eine Codebox:
+
+``` html
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="keywords" content="Stichwort 1, Stichwort 2">
+<meta name="description" content="Kurzbeschreibung der Inhalte des Skripts.">
+
+<title>Titel des OER-Skripts</title>
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Abschnitte</h2>
+</body>
+```
+Das ist `inline-code`.
+
+### Bilder
+
+**Lokales Bild mit allen Optionen**
+
+![Platzhalter-Graphik: *Ein Mensch hält einen Platz*](/img/placeholder.png){#fig-placeholder fig-alt="Graphik von einem Menschen, der das Karten-Symbol für einen Platz in den Händen hält." width=300}
+
+
+**Eingebettet mit vollständiger CC-Lizensierung**
+
+!["[Jubilee and Munin, Ravens, Tower of London](https://commons.wikimedia.org/w/index.php?curid=48615973)" by [Colin](https://commons.wikimedia.org/wiki/User:Colin) from Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg/1024px-Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg){#Raben fig-alt="Jubilee und Munin, zwei der Tower-Raben. Jubilee ist 2012 in Somerset geschlüpft und trägt einen goldenen Ring. Er wurde der Queen zu ihrem Diamantenen Thronjubiläum überreicht. Munin ist 1995 in North Uise geschlüpft und trägt einen hellgrünen Ring. Sie ist der älteste Rabe im Tower. Die Identifikation der Raben wurde von Chris Skaife, dem Ravenmaster („Rabenmeister“), bestätigt."}
+
+``` md
+!["[Jubilee and Munin, Ravens, Tower of London](https://commons.wikimedia.org/w/index.php?curid=48615973)" by [Colin](https://commons.wikimedia.org/wiki/User:Colin) from Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg/1024px-Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg){#fig-Raben fig-alt="Jubilee und Munin, zwei der Tower-Raben. Jubilee ist 2012 in Somerset geschlüpft und trägt einen goldenen Ring. Er wurde der Queen zu ihrem Diamantenen Thronjubiläum überreicht. Munin ist 1995 in North Uise geschlüpft und trägt einen hellgrünen Ring. Sie ist der älteste Rabe im Tower. Die Identifikation der Raben wurde von Chris Skaife, dem Ravenmaster („Rabenmeister“), bestätigt."}
+```
+
+**Zwei Bilder nebeneinander**
+
+::: {layout-ncol=2}
+
+![Platzhalter](/img/placeholder.png)
+
+![Raben](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg/1024px-Jubilee_and_Munin%2C_Ravens%2C_Tower_of_London_2016-04-30.jpg)
+
+Bilder nebeneinander
+:::
+
+
+**Workaround für Textumlauf um Bilder:**
+
+::: {style="float: right;"}
+![Text](/img/placeholder.png "Ein Platzhalter"){fig-alt="Illustration eines Platzhalters." width="250"}
+:::
+
+{{< lipsum 1 >}}
+
+```{.markdown}
+::: {style="float: right; margin: 5px;"}
+![Text](/img/placeholder.png "Ein Platzhalter"){fig-alt="Illustration eines Platzhalters." width="250"}
+:::
+
+{{< lipsum 1 >}}
+```
+
+### Emojis und Symbole
+
+::: callout-tip
+Benötigt
+
+``` yaml
+from: markdown+emoji
+```
+
+Im Header der qmd-Datei.
+:::
+
+| Shortcode                   | Darstellung               |
+|-----------------------------|---------------------------|
+| `:bell:`                    | :bell:                    |
+| `:tada:`                    | :tada:                    |
+| `:mag:`                     | :mag:                     |
+| `:white_check_mark:`        | :white_check_mark:        |
+| `:x:`                       | :x:                       |
+| `:bangbang:`                | :bangbang:                |
+| `:one:`                     | :one:                     |
+| `:two`                      | :two:                     |
+| `:arrow_forward:`           | :arrow_forward:           |
+| `:floppy_disk:`             | :floppy_disk:             |
+| `:no_entry:`                | :no_entry:                |
+| `:page_facing_up:`          | :page_facing_up:          |
+| `:notebook:`                | :notebook:                |
+| `:book:`                    | :book:                    |
+| `:computer:`                | :computer:                |
+| `:sparkles:`                | :sparkles:                |
+| `:star:`                    | :star:                    |
+| `:exclamation:`             | :exclamation:             |
+| `:question:`                | :question:                |
+| `:+1:`                      | :+1:                      |
+| `:information_desk_person:` | :information_desk_person: |
+| \`\`                        |                           |
+
+### Callouts
+
+::: {.callout-note title="Titel"}
+Callout-Notiz
+:::
+
+``` markdown
+::: {.callout-note title="Titel"}
+
+Callout-Notiz
+
+:::
+```
+
+### Tabsets
+
+::: panel-tabset
+#### Tab A
+
+Inhalt Tab A
+
+#### Tab B
+
+Inhalt Tab B
+:::
+
+``` markdown
+::: {.panel-tabset}
+
+#### Tab A
+
+Inhalt Tab A
+
+#### Tab B
+
+Inhalt Tab B
+
+:::
+```
+
+### Spalten
+
+**Zwei einfache Spalten mit `layout-ncol`:**
+
+::: {layout-ncol="2"}
+Erste Spalte
+
+Zweite Spalte
+:::
+
+``` markdown
+::: {layout-ncol=2}
+
+Erste Spalte
+
+Zweite Spalte
+
+:::
+```
+
+**Zwei Spalten mit `.columns`:**
+
+::::: columns
+::: {.column width="20%"}
+Linke Spalte (20%)
+:::
+
+::: {.column width="80%"}
+Rechte Spalte (80%)
+:::
+:::::
+
+``` markdown
+:::: {.columns}
+
+::: {.column width="20%"}
+
+Linke Spalte (20%)
+
+:::
+
+::: {.column width="80%"}
+
+Rechte Spalte (80%)
+
+:::
+
+::::
+```
+
+**Inhalte mit `layout=""` anordnen:**
+
+::: {layout="[[1,1], [1]]"}
+{{< placeholder 200 200 format=png >}}
+
+{{< placeholder 200 200 format=png >}}
+
+{{< placeholder 800 200 format=png >}}
+:::
+
+```
+::: {layout="[[1,1], [1]]"}
+oben links
+
+oben rechts
+
+unten
+:::
+```
+
+### Verweise
+
+::: callout-tip
+Mit
+
+``` yaml
+crossref:
+  sec-prefix: Abschnitt
+```
+
+im YAML-Header der Datei `_layout.yml` wird der Standard-Verweis "Kapitel: #.#" überschrieben zu "Abschnitt: #.#". Die Bezeichnung ist beliebig austauschbar.
+:::
+
+`Verweis auf @fig-placeholder`: Verweis auf @fig-placeholder
+
+Diese Syntax funktioniert auch mit Abschnitten, Tabellen usw.
+
+### Fußnoten und Anmerkungen
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis[^anmerkung]. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia^[Inline- Anmerkungen lassen sich leichter schreiben, da Sie keinen Bezeichner auswählen und nach unten scrollen müssen, um den Text der Anmerkung einzugeben.].
+
+[^anmerkung]: Hier ist etwas anzumerken.
+
+## Optionen von *page-layout: article*
+
+Dieses Dokument hat die Einstellung `page-layout: article` ( in der `_layout.yml`). Damit stehen einige weitere Optionen für die Gestaltung zur Verfügung:
+
+**Position und Breite des Inhaltsbereichs**
+
+::: column-body-outset
+``` yaml
+:::{.column-body-outset}
+
+:::
+```
+:::
+
+::: column-page
+``` yaml
+:::{.column-page}
+
+:::
+```
+:::
+
+::: column-screen
+``` yaml
+::: {.column-screen}
+
+:::
+```
+:::
+
+::: column-screen-inset
+``` yaml
+::: {.column-screen-inset}
+
+:::
+```
+:::
+
+::: column-body-outset-right
+``` yaml
+::: {.column-body-outset-right}
+
+:::
+```
+:::
+
+::: column-page-inset-right
+``` yaml
+::: {.column-page-inset-right}
+
+:::
+```
+:::
+
+::: column-page-right
+``` yaml
+::: {.column-page-right}
+
+:::
+```
+:::
+
+::: column-screen-inset-right
+``` yaml
+::: {.column-screen-inset-right}
+
+:::
+```
+:::
+
+::: column-screen-right
+``` yaml
+::: {.column-screen-right}
+
+:::
+```
+:::
+
+::: column-body-outset-left
+``` yaml
+::: {.column-body-outset-left}
+
+:::
+```
+:::
+
+::: column-page-inset-left
+``` yaml
+::: {.column-page-inset-left}
+
+:::
+```
+:::
+
+::: column-page-left
+``` yaml
+::: {.column-page-left}
+
+:::
+```
+:::
+
+::: column-screen-inset-left
+``` yaml
+::: {.column-screen-inset-left}
+
+:::
+```
+:::
+
+::: column-screen-left
+``` yaml
+::: {.column-screen-left}
+
+:::
+```
+:::
+
+**Inhalte in die rechte Spalte verschieben:**
+
+::: column-margin
+{.column-margin}
+:::
+
+``` yaml
+::: {.column-margin}
+
+:::
+```
+
+[Ein `span` mit der Klasse `aside`, dessen Inhalt am Rand platziert wird.]{.aside}
+
+`[Ein span mit der Klasse aside, dessen Inhalt am Rand platziert wird:]{.aside}`
+
+## Weiterführende Quellen und Informationen {.appendix .unnumbered}
+
+<!-- Der Ort für weiterführende Quellen und Informationen. Wenn Sie Fußnoten oder Literaturverweise im Text eingefügt haben, werden die bibliographischen Angaben automatisch in weiteren Abschnitten generiert und in das Dokument eingefügt. -->
+
+## Nachnutzen {.appendix .unnumbered}
 
 Alle sind herzlich eingeladen, diesen Baustein und die zugehörige Copyleft-Lizenz zu nutzen, um ihr Wissen und Expertise in die Verbesserung und Aktualisierung einzubringen. Alle können die Inhalte erweitern oder überarbeiten, zum Beispiel um Anwendungsszenarien und Nutzungskontexte zu erweitern.
 
 Unser Wunsch ist ein lebendiges, stetig wachsendes Dokument, das sich durch die Beiträge vieler verändert - im Einklang mit eines sich wandelnden Umfelds. Wir freuen uns im Falle einer Überarbeitung über eine kurze Notiz – das ist aber selbstverständlich keine Pflicht.
 
-<!-- Verweise auf Website und Repository werden in _oer_metadata.yml global festgelegt -->
+<!-- Verweise auf Website und Repository werden in _oer_metadata.yml global festgelegt. Wenn die OER nicht in einem git-Repository gehostet oder online bereitgestellt werden, können die folgenden zwei Zeilen gelöscht werden. -->
 
 :link: [Dieser Baustein als Website]({{< meta site-url >}}) 
 
 :link: [Quarto-Quellcode dieses Bausteins]({{< meta repo-url >}})
 
-## Disclaimer: Einsatz von LLM {.appendix}
+---
+
+:link: Dieses Skript nutzt das [OER-Skript-Template von NFDI4Objects]({{< meta template-repo-url >}})
+
+## Disclaimer: Einsatz von LLM {.appendix .unnumbered}
 
 <!-- Optionale Angaben zum Einsatz von LLM bei der Erstellung oder Überarbeitung des Skripts -->
 

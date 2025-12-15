@@ -4,7 +4,7 @@ type: LearningResource
 name: Titel des OER-Skripts
 description: Kurzbeschreibung der Inhalte des Skripts
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://kacebe.github.io/n4o_oer-skript-template/
+id: https://link.zu.repository
 creator:
   - givenName: Jane
     familyName: Doe

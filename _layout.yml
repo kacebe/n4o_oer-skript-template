@@ -20,12 +20,12 @@ format:
     code-tools: # Symbol mit Beschriftung .md in der Kopfzeile zum Anzeigen des Markdown-Quellcodes
       source: true
       toggle: false
-      caption: ".md"
+      caption: "qmd"
     back-to-top-navigation: true # Am Ende der Seite wird angeboten, an den Anfang zu springen
     anchor-sections: true # Beim Hovern über die 'headings' wird ein Ankersymbol angezeigt, das mit der http-Adresse der Überschrift verlinkt ist.
     code-copy: true # Kopierbutton mit ARIA-Label
     df-print: paged # Tabellen mit Paginierung (tastaturbedienbar)
-    reference-location: margin # Fußnoten und Anmerkungen werden rechts des Absatzes angezeigt.
+    reference-location: document # Fußnoten und Anmerkungen werden rechts des Absatzes angezeigt.
     citation-location: document # Im Text zitierte Literaturnachweise werden am Ende der Seite gesammelt.
     preview-links: true # Bei Klick auf einen Link eine Vorschau anzeigen
     link-external-icon: true # Icon für externe Links anzeigen

@@ -1,7 +1,5 @@
 /*-- scss:defaults --*/
 
-$spacer: 1rem !default;
-
 /*-- scss:rules --*/
 
 p, li, a {
@@ -12,25 +10,59 @@ p, li, a {
   color: var(--quarto-color-farbe-dunkel) !important;
 }
 
-// Eigene Kolophon-Klasse
+// Eigene Kolophon-Klasse für Einträge wie Lernziele etc.
 .kolophon {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.1;
 }
 
 .kolophon p {
+  font-size: 1em !important;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
-.kolophon > :is(h1, h2, h3) {
-  font-size: 1rem !important;
+.kolophon > :is(h1, h2, h3, h4) {
+  font-size: 1em !important;
 }
 
-// Bildunterschriften
+// Metadatenblock auf Webpage
 
-figure figcaption, .figure-caption {
-  color: $brand-farbe-dunkel !important;
+.quarto-title-meta-author,
+.quarto-title-meta,
+.keywords {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.quarto-title-meta-author p,
+.quarto-title-meta p,
+.keywords p,
+.keywords .block-title {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.quarto-title-meta-heading,
+.keywords .block-title {
+  text-transform: none !important;
+}
+
+// Appendices
+
+#quarto-appendix.default .quarto-appendix-heading {
+  border-bottom: 1px solid #dee2e6;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(222, 226, 230);
+  padding-bottom: .5rem;
+  color: #13294b;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 // TOC/Margin
@@ -54,9 +86,9 @@ figure figcaption, .figure-caption {
   color: $brand-farbe-dunkel !important;
 }
 
-// Tabset
+// Bildunterschriften
 
-.panel-tabset {
-  font-size: 1.2rem !important;
-  font-weight: 400;
+figure figcaption, .quarto-figure figcaption {
+  color: $brand-farbe-dunkel;
+  font-size: 0.85rem;
 }
