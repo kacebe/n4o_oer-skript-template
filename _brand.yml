@@ -1,17 +1,17 @@
 color:
   palette:
-    farbe-hell: "#EEEAE0" # RGB: 238 234 224
-    farbe-dunkel: "#13294B" # RGB: 19 41 75
-    farbe-marker: "#0084FF" # RGB: 0 132 255
+    hell: "#EEEAE0" # RGB: 238 234 224
+    dunkel: "#13294B" # RGB: 19 41 75
+    marker: "#0084FF" # RGB: 0 132 255
     farbton-01: "#E7C6AC" # RGB: 231 198 172
     farbton-02: "#D89E76" # RGB: 216 158 118
     farbton-03: "#CD8255" # RGB: 205 130 85
     farbton-04: "#BCA089" # RGB: 188 160 137
     farbton-05: "#CFC5BA" # RGB: 207 197 186
     hintergrund: "#ffffff"
-  foreground: farbe-dunkel
+  foreground: dunkel
   background: hintergrund
-  primary: farbe-dunkel
+  primary: dunkel
 
 typography:
   fonts:
@@ -45,16 +45,16 @@ typography:
     weight: 400
     style: normal
     line-height: 1.5
-    color: farbe-dunkel
+    color: dunkel
   monospace: 
     family: Noto Sans Mono
     size: 0.85rem
     weight: normal
-    color: farbe-dunkel
-    background-color: farbe-hell
+    color: dunkel
+    background-color: hell
   link: 
     weight: normal
-    color: farbe-dunkel
+    color: dunkel
     decoration: underline
 # https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 # https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
@@ -70,48 +70,48 @@ defaults:
       h4-font-size: 1.25rem
       h5-font-size: 1.25rem
 # Code-Blocks
-      code-block-bg: $brand-farbe-hell
-      code-block-border-left: $brand-farbe-hell
+      code-block-bg: $brand-hell
+      code-block-border-left: $brand-hell
       code-block-border-left-size: 1px
       code-block-padding-left: 0.6rem
       code-block-bg-padding: 0.4rem
-      btn-code-copy-color: $brand-farbe-marker
-      btn-code-copy-color-active: $brand-farbe-marker
+      btn-code-copy-color: $brand-marker
+      btn-code-copy-color-active: $brand-marker
 # Inline-Code
-      code-bg: $brand-farbe-hell
-      code-color: $brand-farbe-dunkel
+      code-bg: $brand-hell
+      code-color: $brand-dunkel
 # Table of Contents
       toc-font-size: 0.9rem
-      toc-color: $brand-farbe-marker
-      toc-active-border: $brand-farbe-marker
+      toc-color: $brand-marker
+      toc-active-border: $brand-marker
       toc-active-border-width: 10px 
-      toc-inactive-border: $brand-farbe-marker
+      toc-inactive-border: $brand-marker
 # Callout
       callout-border-width: 2px
       callout-border-scale: 0%
       callout-icon-scale: 10%
       callout-margin-top: 1.25rem
       callout-margin-bottom: 1.25rem
-      callout-color-note: $brand-farbe-marker
-      callout-color-tip: $brand-farbe-marker
-      callout-color-caution: $brand-farbe-marker
-      callout-color-warning: $brand-farbe-marker
-      callout-color-important: $brand-farbe-marker
+      callout-color-note: $brand-marker
+      callout-color-tip: $brand-marker
+      callout-color-caution: $brand-marker
+      callout-color-warning: $brand-marker
+      callout-color-important: $brand-marker
 # Tabset
       nav-link-padding-y: .5rem
       nav-link-padding-x: 1rem
       nav-link-font-size: 1.2rem
       nav-link-font-weight: 400
-      nav-link-color: $brand-farbe-dunkel
-      nav-tabs-border-color: $brand-farbe-hell
+      nav-link-color: $brand-dunkel
+      nav-tabs-border-color: $brand-hell
       nav-tabs-border-width: 3px
       nav-tabs-border-radius: 5px
-      nav-tabs-link-hover-border-color: $brand-farbe-hell
-      nav-tabs-link-active-color: $brand-farbe-dunkel
+      nav-tabs-link-hover-border-color: $brand-hell
+      nav-tabs-link-active-color: $brand-dunkel
       nav-tabs-link-active-bg: $brand-hintergrund
-      nav-tabs-link-active-border-color: $brand-farbe-hell
+      nav-tabs-link-active-border-color: $brand-hell
       nav-pills-border-radius: 5px
-      nav-pills-link-active-color: $brand-farbe-dunkel
-      nav-pills-link-active-bg: $brand-farbe-hell
+      nav-pills-link-active-color: $brand-dunkel
+      nav-pills-link-active-bg: $brand-hell
       nav-underline-gap: 1rem
       nav-underline-border-width: .125rem

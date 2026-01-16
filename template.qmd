@@ -12,7 +12,7 @@ metadata-files:
 # Optional
 bibliography: bibliographie.bib
 toc: true
-toc-expand: false
+toc-expand: true
 toc-title: |
   ![](/img/titelgraphik.png)
 toc-location: right

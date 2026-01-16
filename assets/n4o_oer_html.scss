@@ -7,7 +7,7 @@ p, li, a {
 }
 
 .header-section-number {
-  color: var(--quarto-color-farbe-dunkel) !important;
+  color: var(--quarto-color-dunkel) !important;
 }
 
 // Eigene Kolophon-Klasse für Einträge wie Lernziele etc.
@@ -78,17 +78,17 @@ p, li, a {
 }
 
 .sidebar nav[role=doc-toc]>ul a {
-  border-left: 2px solid $brand-farbe-marker !important;
+  border-left: 2px solid $brand-marker !important;
 }
 
 .column-margin {
   font-size: 0.9rem !important;
-  color: $brand-farbe-dunkel !important;
+  color: $brand-dunkel !important;
 }
 
 // Bildunterschriften
 
 figure figcaption, .quarto-figure figcaption {
-  color: $brand-farbe-dunkel;
+  color: $brand-dunkel;
   font-size: 0.85rem;
 }
