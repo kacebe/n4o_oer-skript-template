@@ -1,36 +1,38 @@
 /*-- scss:defaults --*/
-
 /*-- scss:rules --*/
 
+/* Typografie: leicht erhoehter Buchstabenabstand */
 p, li, a {
-  letter-spacing: 0.01em; /* leicht erhöhter Buchstabenabstand */
+  letter-spacing: 0.01em;
 }
 
 .header-section-number {
-  color: var(--quarto-color-dunkel) !important;
+  color: $brand-text !important;
 }
 
-// Eigene Kolophon-Klasse für Einträge wie Lernziele etc.
+/* Kolophon (z.B. Lernziele) */
 .kolophon {
   font-size: 1em;
   line-height: 1.1;
 }
 
 .kolophon p {
-  font-size: 1em !important;
+  font-size: inherit;
+  line-height: inherit;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
 .kolophon > :is(h1, h2, h3, h4) {
-  font-size: 1em !important;
+  font-size: inherit;
+  line-height: inherit;
 }
 
-// Metadatenblock auf Webpage
-
+/* Metadatenblock + Abstract: gemeinsame Basistypografie */
 .quarto-title-meta-author,
 .quarto-title-meta,
-.keywords {
+.keywords,
+.abstract {
   font-size: 0.9rem;
   line-height: 1.1;
 }
@@ -38,25 +40,36 @@ p, li, a {
 .quarto-title-meta-author p,
 .quarto-title-meta p,
 .keywords p,
-.keywords .block-title {
+.abstract p {
   font-size: inherit;
   line-height: inherit;
 }
 
+/* Block-Titel (Keywords/Abstract) und Meta-Heading: keine Versalien */
 .quarto-title-meta-heading,
-.keywords .block-title {
+.keywords .block-title,
+.abstract .block-title {
   text-transform: none !important;
+  font-size: inherit;
+  line-height: inherit;
 }
 
-// Appendices
+/* Feintuning Abstract */
+.abstract p {
+  margin-bottom: 0.5rem;
+}
 
+.abstract .block-title p {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 0.2rem;
+}
+
+/* Appendices (global) */
 #quarto-appendix.default .quarto-appendix-heading {
-  border-bottom: 1px solid #dee2e6;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(222, 226, 230);
-  padding-bottom: .5rem;
-  color: #13294b;
+  padding-bottom: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: PT Sans;
@@ -65,8 +78,36 @@ p, li, a {
   line-height: 1.5;
 }
 
-// TOC/Margin
+/* Appendices: Lizenz + Urheber:innen kompakter */
+#quarto-appendix.default #quarto-reuse,
+#quarto-appendix.default #quarto-copyright {
+  padding-bottom: 0.4rem;
+}
 
+#quarto-appendix.default #quarto-reuse .quarto-appendix-heading,
+#quarto-appendix.default #quarto-copyright .quarto-appendix-heading {
+  font-size: 0.5rem;
+  line-height: 1.1;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+#quarto-appendix.default #quarto-reuse .quarto-appendix-contents,
+#quarto-appendix.default #quarto-copyright .quarto-appendix-contents {
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+/* Vererbung im Appendix-Inhalt (inkl. Links) */
+#quarto-appendix.default #quarto-reuse .quarto-appendix-contents :is(p, div, a),
+#quarto-appendix.default #quarto-copyright .quarto-appendix-contents :is(p, div, a) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* TOC/Margin */
 .quarto-margin-sidebar {
   line-height: 1.2rem;
   font-weight: bold;
@@ -77,18 +118,18 @@ p, li, a {
   margin-top: 2rem;
 }
 
-.sidebar nav[role=doc-toc]>ul a {
-  border-left: 2px solid $brand-marker !important;
+.sidebar nav[role="doc-toc"] > ul a {
+  border-left: 2px solid $brand-akzent !important;
 }
 
 .column-margin {
   font-size: 0.9rem !important;
-  color: $brand-dunkel !important;
+  color: $brand-text !important;
 }
 
-// Bildunterschriften
-
-figure figcaption, .quarto-figure figcaption {
-  color: $brand-dunkel;
+/* Bildunterschriften */
+figure figcaption,
+.quarto-figure figcaption {
+  color: $brand-text;
   font-size: 0.85rem;
 }

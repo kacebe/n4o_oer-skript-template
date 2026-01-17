@@ -66,3 +66,6 @@ language:
   section-title-citation: "Zitation"
   appendix-attribution-bibtex: "BibTeX"
   appendix-attribution-cite-as: "Kurzzitat"
+  repo-action-links-edit: "Seite bearbeiten"
+  repo-action-links-source: "Quelltext aufrufen"
+  repo-action-links-issue: "Problem melden"
