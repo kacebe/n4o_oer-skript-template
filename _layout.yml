@@ -12,10 +12,8 @@ format:
       - default
       - assets/n4o_oer_html.scss
     brand: _brand.yml
-# embed-resources: true erstellt eine eigenständige HTML-Datei ohne externe Abhängigkeiten für die Übernahme in LMS wie Moodle oder OLAT.
-    embed-resources: false
-# Für die Steuerung des Seiten-Layouts vgl. https://quarto.org/docs/output-formats/page-layout.html. Weitere Optionen für die Arbeit mit page-layout: article hier: https://quarto.org/docs/authoring/article-layout.html
-    page-layout: article
+    embed-resources: false # embed-resources: true erstellt eine eigenständige HTML-Datei ohne externe Abhängigkeiten für die Übernahme in LMS wie Moodle oder OLAT.
+    page-layout: article # Für die Steuerung des Seiten-Layouts vgl. https://quarto.org/docs/output-formats/page-layout.html. Weitere Optionen für die Arbeit mit page-layout: article hier: https://quarto.org/docs/authoring/article-layout.html
 # Einstellungen für Webpage-Funktionen
     code-tools: # Symbol mit Beschriftung .md in der Kopfzeile zum Anzeigen des Markdown-Quellcodes der Seite
       source: true
@@ -35,19 +33,17 @@ format:
     smooth-scroll: false # Barrierefreiheit: Vermeidet animiertes scrollen.
 # Styling von Code-Boxen # zum Styling von Codeboxen vgl. https://quarto.org/docs/output-formats/html-code.html
     code-overflow: wrap
-    code-line-numbers: false
+    code-line-numbers: true
     highlight-style: github
     respect-user-color-scheme: true
     cap-location: bottom
 # Für die Steuerung der Appendices vgl. https://quarto.org/docs/authoring/appendices.html
     appendix-style: default
     appendix-cite-as: true
-# Pfad und Alternativtext für Vorschau-Bild
-    image: img/titelgraphik.png
-    image-alt: "Titelgraphik"
-# Für die Nutzung von shortcodes für Emojis in Quarto-Markdown vgl. https://quarto.org/docs/visual-editor/content.html#emojis und https://gist.github.com/rxaviers/7360908
-from: markdown+emoji
-# Anpassungen der automatisch erzeugten Bezeichnungen in der Dokumentstruktur. vgl. https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language-de.yml
+
+from: markdown+emoji # Für die Nutzung von shortcodes für Emojis in Quarto-Markdown vgl. https://quarto.org/docs/visual-editor/content.html#emojis und https://gist.github.com/rxaviers/7360908
+
+# Anpassungen der von Quarto automatisch erzeugten Bezeichnungen in der Dokumentstruktur. vgl. https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language-de.yml
 crossref:
   sec-prefix: Abschnitt
 language:

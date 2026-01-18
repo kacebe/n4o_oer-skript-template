@@ -27,12 +27,12 @@ execute:
 
 Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Skript aus dem Template generiert!
 
-Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten.
+Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.
+
+Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in auf der [Website zu ###]().
 
 
 ## Einleitung
-
-Für Hinweise zu dem Gliederungsvorschlag vgl. die Kommentare in der .qmd-Datei.
 
 <!-- Holen Sie die Lernenden in diesem Absatz ab. Stellen Sie in wenigen Sätzen, mit Beispielen und Fragen das Thema des Bausteins vor. -->
 

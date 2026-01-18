@@ -1,31 +1,6 @@
 # NFDI4objects Vorlage OER Skript
 
-Dieses Repository enthält ein Template für die Erstellung eines **OER-Skripts** mit Quarto.
-
-## Nutzung des Templates
-
-In dem Template sind Metadaten nach unterschiedlichen Funktionen in drei Dateien ausgelagert:
-
-- autor_innen.yml
-- layout.yml
-- oer_metadata.yml
-
-Damit wird der Meta-Header der `qmd`-Datei stark ausgedünnt und die Arbeit an den Inhalten nicht gestört.
-
-In folgenden Dateien sind unbedingt Anpassungen vorzunehmen:
-
-- `_autor_innen.yml`
-- `_oer_metadata.yml`
-
-Änderungen an Design und Layout des Templates können über die 
-
-- `_layout.yml`
-- `_brand.yml`
-
-vorgenommen werden.
-
-> [!TIP]
-> In den kommentierten yml-Dateien sind viele Hinweise für Anpassungen hinterlegt.
+Dieses Repository enthält ein Template für die Erstellung eines **OER-Skripts** mit der Publikations-Umgebung [Quarto](https://quarto.org/).
 
 ## Open Educational Resources (OER)
 

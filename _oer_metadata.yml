@@ -30,27 +30,27 @@ repo-url: &repo https://github.com/kacebe/n4o_oer-skript-template/
 doi: XXXXXXX.XXXXXXX
 
 # Vorgaben für den Appendix "Zitat"
-# Verweis auf CSL-Datei mit Zitierformat. Weitere CSL-Dateien im Verzeichnis assets/csl/. Fehlende CSL-Dateien können hier heruntergeladen werden: https://www.zotero.org/styles
-csl: assets/csl/internet-archaeology.csl
+csl: assets/csl/internet-archaeology.csl # Verweis auf CSL-Datei mit Zitierformat. Weitere CSL-Dateien im Verzeichnis assets/csl/. Fehlende CSL-Dateien können hier heruntergeladen werden: https://www.zotero.org/styles
 # vgl. https://quarto.org/docs/reference/metadata/citation.html
 citation:
   type: document
   container-title: "Open Educational Resource"
   publisher: Institution
-  issued: 2025
+  issued: 2026
   url: *site
   license: "https://creativecommons.org/licenses/by/4.0/"
 
 # Rechtliche Metadaten
 copyright: "Freitext-Angaben zu Inhaber:innen des Urheberrechts an den Inhalten (Anzupassen im Schlüssel `copyright` in der Datei `_oer_metadata.yml`)"
-# Optionen für Lizensierungsangaben: https://quarto.org/docs/authoring/front-matter.html#license
-license: CC BY # Wird übernommen in automatisch erstellten Appendix "Lizenz".
+license: CC BY # # Optionen für Lizensierungsangaben: https://quarto.org/docs/authoring/front-matter.html#license. Wird übernommen in automatisch erstellten Appendix "Lizenz".
 
 # Spezifische Metadaten für den Export in fachliche Metadatenschemata
+
 # OERSI (vgl. https://oersi.gitlab.io/metadata-form/metadata-generator.html)
 bildungsstufe: https://w3id.org/kim/educationalLevel/level_A
 materialart: https://w3id.org/kim/hcrt/script
-status: Incomplete  # Draft, Incomplete, Published
+status: Draft  # Draft, Incomplete, Published
+
 # Schema für eigene Key-Value-Paare mit Bindestrich: custom-key: "custom-value"
 beispiel-key: beispiel-value
 # Shortcuts für Verweise auf verlinkte OER-Bausteine für die Nutzung im Text. Beispiel:
