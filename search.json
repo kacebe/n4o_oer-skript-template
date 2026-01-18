@@ -4,14 +4,14 @@
     "href": "template.html",
     "title": "OER-Skript",
     "section": "",
-    "text": "Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Skript aus dem Template generiert!\nÜbernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten."
+    "text": "Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Skript aus dem Template generiert!\nÜbernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.\nWarum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in auf der Website zu ###."
   },
   {
     "objectID": "template.html#einleitung",
     "href": "template.html#einleitung",
     "title": "OER-Skript",
     "section": "1 Einleitung",
-    "text": "1 Einleitung\nFür Hinweise zu dem Gliederungsvorschlag vgl. die Kommentare in der .qmd-Datei.\n\n\nLernziele\n\nIn diesem Skript lernen sie (Petersen u. a. 2025):\n\nKompetenz #.#\n\n\n\nVorwissen\nFür das Verständnis dieses Skripts werden vorausgesetzt:\n\nVoraussetzung\n\n\n\n\nBezug zum Forschungsdatenlebenszyklus"
+    "text": "1 Einleitung\n\n\nLernziele\n\nIn diesem Skript lernen sie (Petersen u. a. 2025):\n\nKompetenz #.#\n\n\n\nVorwissen\nFür das Verständnis dieses Skripts werden vorausgesetzt:\n\nVoraussetzung\n\n\n\n\nBezug zum Forschungsdatenlebenszyklus"
   },
   {
     "objectID": "template.html#inhaltliche-abschnitte",
